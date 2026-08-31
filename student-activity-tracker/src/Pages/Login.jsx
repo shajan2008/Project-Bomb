@@ -24,7 +24,7 @@ export default function Login() {
     setTimeout(() => {
       setLoading(false);
     }, 1000);
-    navigate("/dashboard.jsx");
+    navigate("./Dashboard.jsx");
   };
   
   return (
